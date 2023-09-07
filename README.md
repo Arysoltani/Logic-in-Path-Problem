@@ -10,4 +10,6 @@ Given variables $n$, $m$, $s$, $t$, $s'$, $t'$, $k$ following $m$ edges with ($v
 
 We used ASP, SMT and SAT for solving this question, and compare the solution and solvers with each other. 
 
-### ASP
+### Answer Set Programming(ASP):
+
+The main advatage of this method is its usage of least fix point which could be very useful for finding reachability.
