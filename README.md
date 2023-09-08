@@ -10,6 +10,16 @@ Given variables $n$, $m$, $s$, $t$, $s'$, $t'$, $k$ following $m$ edges with ($v
 
 We used ASP, SMT and SAT for solving this question, and compare the solution and solvers with each other. 
 
-### Answer Set Programming(ASP):
+### Answer Set Programming Solver(ASP):
 
 The main advatage of this method is its usage of least fix point which could be very useful for finding reachability.
+
+### Satisfiability Modulo Theory Solver(SMT):
+
+Have the ability of defining problems in first order logic, which makes it a strong tool. It's advantages over ASP like defing more complex formula is not that much helpful in this problem.
+
+### Satisfiability Solver(SAT): 
+
+It could define propositional logic, which just have variables with True and False. This leads to exhibit exponential growth in complexity when compared to more efficient approaches like SMT (Satisfiability Modulo Theories) and ASP (Answer Set Programming).
+
+## Solution
