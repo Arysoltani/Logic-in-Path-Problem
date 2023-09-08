@@ -22,4 +22,21 @@ Have the ability of defining problems in first order logic, which makes it a str
 
 It could define propositional logic, which just have variables with True and False. This leads to exhibit exponential growth in complexity when compared to more efficient approaches like SMT (Satisfiability Modulo Theories) and ASP (Answer Set Programming).
 
-## Solution
+## Solutions
+
+### Floyd-Warshal Smilar Algorithm: 
+
+We applied a variant of the Floyd-Warshall algorithm using both SMT and ASP.
+
+## Floyd Warshal with Least Fixed Point:
+
+This implementation is essentially identical to the previous solution, but it leverages the benefits of the least fixed point approach in Answer Set Programming (ASP).
+
+### Grouping 
+
+
+In this solution, implemented using ASP and SMT, we aim to select paths for both $s$ and $t$ based on a formulated formula. Additionally, we organize nodes into two distinct groups in such a way that edges within each group exclusively have a single direction for ensuring there is no path between $s'$ and $t'$.
+
+## SAT Algorithm 
+
+This algorithm evaluates all potential paths individually and establishes specific conditions for each of them.
